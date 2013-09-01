@@ -1,0 +1,14 @@
+exportPattern(	
+				ackley,
+				DEopt.vec,
+				GAopt.vec,
+				grad.vec,
+				jacobian.vec,
+				levy,
+				nmkb.vec,
+				powell,
+				PSopt.vec,
+				rastr,
+				rosenbrock,
+				schwef
+			)
