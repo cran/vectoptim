@@ -65,8 +65,9 @@ Also, the gain in running time can be seen when the objective function is CPU-ex
    func <- function(x) c(sin(x), cos(x))
    x <- (0:1)*2*pi
    jacobian.vec(func, x)
+   \dontrun{
    jacobian.vec(func, x, vec="foreach")
-
+}
 }
 
 \keyword{ optimization }

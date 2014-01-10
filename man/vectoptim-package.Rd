@@ -12,8 +12,8 @@ Some vectorized optimization methods and speedup using foreach
 \tabular{ll}{
 Package: \tab vectoptim\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2013-09-01\cr
+Version: \tab 0.2\cr
+Date: \tab 2014-01-10\cr
 License: \tab GPL-3\cr
 }
 

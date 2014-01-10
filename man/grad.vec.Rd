@@ -49,8 +49,9 @@ Also, the gain in running time can be seen when the objective function is CPU-ex
   grad.vec(sin, pi)
   grad.vec(sin, (0:10)*2*pi/10)
   func0 <- function(x){ sum(sin(x))  }
+ \dontrun{
   grad.vec(func0 , (0:10)*2*pi/10, vec="foreach")
-
+	}
 }
 
 \keyword{ gradient }

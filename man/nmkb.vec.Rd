@@ -86,7 +86,7 @@ Also, the gain in running time can be seen when the objective function is CPU-ex
 }
 \examples{
 
-nmkb.vec(par=rep(3, 30), fn=rastr, lower=2, upper=4, vec="foreach")
+nmkb.vec(par=rep(3, 30), fn=rastr, lower=2, upper=4, vec="apply")
 
 }
 

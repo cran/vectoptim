@@ -71,7 +71,7 @@ algo <- list(nB = 20,
 			 printBar = FALSE
 			 )
 set.seed(123)
-sol.foreach <- GAopt.vec(rosenbrock, algo = algo, vec = "foreach")
+sol.foreach <- GAopt.vec(rosenbrock, algo = algo, vec = "apply")
 
 
 }

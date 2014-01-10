@@ -68,7 +68,7 @@ algo <- list(min = rep(-2, 20), max = rep(4, 20),
              iner = 0.7, initV = 1, maxV = 3, 
              nP = 20L, nG = 300L, printBar = FALSE)
 set.seed(123)
-sol <- PSopt.vec(rosenbrock, algo = algo, vec="foreach")
+sol <- PSopt.vec(rosenbrock, algo = algo, vec="apply")
 
 }
 

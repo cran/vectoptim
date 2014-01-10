@@ -71,7 +71,7 @@ algo <- list(nP = 30L,				### population size
 				min = c(-2, 20),	### range for initial population
 				max = c( 4, 20))
 set.seed(123)
-sol <- DEopt.vec(fun = rosenbrock, algo = algo, vec = "foreach")
+sol <- DEopt.vec(fun = rosenbrock, algo = algo, vec = "apply")
 
 }
 
